@@ -5,15 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>INFO2180 - LAB 4</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    
+    <script src="app.js" ></script>
   </head>
  
  <body>
-    <h1>AVENGERS CHARACTER SEARCH</h1>
-    <form action="superheroes.php" method="GET">
-        <!--<input type="text" id="searchtf" placeholder="Enter your query here"> -->
-        <input type="button" id="searchbtn" name="Search" value="Search">
-    </form>
+    <div class="container">
+        <header>
+			<div>
+            <h1>AVENGERS CHARACTER SEARCH</h1>
+			</div>
+        </header>
+        <main>
+			<div id="belowheader">
+				<div id="centeralign">
+					<div>
+						<h3>Search by full name of alias</h3>
+					</div>
+					<div id="searchcomp">
+						<form action="superheroes.php" method="GET" id="searchform">
+							<input type="text" id="searchtf" name="searchtf" placeholder="Enter your query here"> 
+							<input type="button" id="searchbtn" name="Search" value="Search">
+						</form>
+					</div>
+					<div id="res">
+						<h1> RESULT</h1>
+						<hr>
+					</div>
+					<div id="result">
+
+					</div>
+				<div>
+			</div>
+        </main>
+        <footer>
+
+        </footer>
+    </div>
   </body>
 </html>

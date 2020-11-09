@@ -1,0 +1,77 @@
+html,body{
+	height:100%;
+	width: 100%;
+	background-image: url("avg.jpg");
+}
+
+
+.container {
+    margin: 0 auto;
+    width: 1010px;
+	background-color:#e6f5ff;
+	border-style:solid;
+		
+}
+
+body div.container header div{
+	padding-top:20px;
+	padding-bottom:20px;
+    background-color:#4f99e3;
+}
+
+body div.container header div h1{
+	display:flex;
+	justify-content:center;
+	color:white;
+}
+
+#searchbtn{
+    color:white;
+    background-color: #c50505;
+}
+
+body div.container main #searchcomp form{
+    display: flex;
+	gap:1px;
+}
+main{
+	display:flex;
+	flex-direction:column;
+}
+
+#belowheader{
+	display:grid;
+	grid-template-columns:1fr 3fr 1fr;
+}
+
+#centeralign{
+	display:grid;
+	grid-column:2;
+}
+
+#searchtf{
+	border-radius:5px;
+	width:650px;
+	height:30px
+}
+
+#searchbtn{
+	width 60px;
+	border-radius:5px;
+}
+hr{
+	color:grey;
+	size:1px;
+}
+
+#res{
+	width:750px;
+}
+
+.redstyle{
+	color:red;
+}
+
+.blackstyle{
+	color:black;
+}
