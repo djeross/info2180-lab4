@@ -25,7 +25,7 @@ window.addEventListener('load',()=>{
                 else{   
                     resultarea.classList.remove("redstyle");
                     resultarea.classList.add("blackstyle");
-                    resultarea.innerHTML=data+"errorhere";
+                    resultarea.innerHTML=data;
                 }
         })
         .catch(error=>{
