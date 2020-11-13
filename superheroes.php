@@ -91,13 +91,13 @@ else{
         foreach ($info as $data){
             switch ($count) {
             case 0:
-                echo "<h3>".strtoupper($data)."<h3>";
+                echo "<h3>".strtoupper($data)."</h3>";
                 break;
             case 1:
-                echo "<h4>"."A.K.A ".$data."<h3><br>";
+                echo "<h4>"."A.K.A ".$data."</h4><br>";
                 break;
             case 2:
-                echo "<P>".$data."<P>";
+                echo "<P>".$data."</P>";
                 break;
             }
             $count+=1;
